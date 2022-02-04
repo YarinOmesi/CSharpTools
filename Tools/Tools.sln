@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{C297D63C-CEB3-4E0D-A7F8-51D392C7D92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Config", "Tools.Config\Tools.Config.csproj", "{1AEA276A-B663-436C-BF91-F1497788D9E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Logger", "Tools.Logger\Tools.Logger.csproj", "{CE961E3C-83AC-4092-999C-DB180882FFFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C297D63C-CEB3-4E0D-A7F8-51D392C7D92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C297D63C-CEB3-4E0D-A7F8-51D392C7D92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C297D63C-CEB3-4E0D-A7F8-51D392C7D92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C297D63C-CEB3-4E0D-A7F8-51D392C7D92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEA276A-B663-436C-BF91-F1497788D9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEA276A-B663-436C-BF91-F1497788D9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEA276A-B663-436C-BF91-F1497788D9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEA276A-B663-436C-BF91-F1497788D9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE961E3C-83AC-4092-999C-DB180882FFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE961E3C-83AC-4092-999C-DB180882FFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE961E3C-83AC-4092-999C-DB180882FFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE961E3C-83AC-4092-999C-DB180882FFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD27F7D8-7996-413D-B77A-CE9DCCFD22A7}
+	EndGlobalSection
+EndGlobal
