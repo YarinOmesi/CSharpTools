@@ -15,8 +15,8 @@ namespace Tools
             var mainLogger = loggerFactory.Create("Main");
 
             // Loading class from configuration
-            var loader = new ConfigLoader<NetworkConfig>("networkConfig",loggerFactory);
-            var config = loader.LoadConfig();
+            var loader = new ConfigurationLoader(loggerFactory, "ConfigExample/App.config");
+            var config = loader.Load<NetworkConfig>("networkConfig");
             mainLogger.Info($"Ip:[{config.Ip}, port:[{config.Port}]");
 
         }
